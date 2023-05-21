@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 
 <body>
@@ -128,6 +129,10 @@
 
                 </div>
                 <div class="header__content">
+                    <input class="header__burger" id="header__toggle" type="checkbox" />
+                    <label class="header__burger-btn" for="header__toggle">
+                        <div></div>
+                    </label>
                     <nav class="header__nav">
                         <a href="#" class="header__link">About us</a>
                         <a href="#" class="header__link">Discover jobs</a>
@@ -137,13 +142,16 @@
                     </nav>
                     <button class="header__btn">Get in Touch</button>
                 </div>
+
             </div>
         </div>
     </header>
     <section class="hero">
+
         <div class="container">
             <div class="hero__wrapper">
                 <h1 class="hero__title">CareerBox</h1>
+                <hr class="hero__horizontal">
                 <p class="hero__desc">
                     Powering Your Business Through Quality Staffing Solutions
                 </p>
@@ -160,6 +168,8 @@
                         <div class="hero__img"><img src="./images/hero__time.png" alt="time"></div>
                         <h3 class="hero__subtitle">Time Savings</h3>
                     </div>
+
+                    <button class="hero__btn">Get in Touch</button>
                 </div>
             </div>
         </div>
@@ -182,8 +192,10 @@
                         candidates for your job openings.</p>
                 </div>
                 <div class="about-us__images">
-                    <div class="about-us__img-bottom about-us__img"><img src="./images/about-us__z_0.png" alt="about"></div>
-                    <div class="about-us__img-top about-us__img"><img src="./images/about-us__z-1.png" alt="about"></div>
+                    <div class="about-us__img-bottom about-us__img"><img src="./images/about-us__z_0.png" alt="about">
+                    </div>
+                    <div class="about-us__img-top about-us__img"><img src="./images/about-us__z-1.png" alt="about">
+                    </div>
                 </div>
             </div>
         </div>
@@ -247,9 +259,11 @@
                             <div class="process__card-count">
                                 <p>4</p>
                             </div>
-
+                            <div class="process__card-arrow desktop__none">
+                                <img src="./images/process__arrow.png" alt="arrow">
+                            </div>
                         </div>
-                        <div class="process__card-paragraph">
+                        <div class="process__card-paragraph without__arrow">
                             <h4 class="process__subtitle">Follow Up: </h4>
                             <p>The staffing company will follow up with the organization or employer to ensure the
                                 placement was successful and address any issues that may arise. </p>

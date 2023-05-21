@@ -11,13 +11,13 @@ $(document).ready(function() {
         loop: true,
         responsive:{ 
             0:{
-                items:2
-                
+                items:2,
+                nav: false
         
             },
-
-            431:{
+           768:{
                 items:5
+                
             }
         }
     });
